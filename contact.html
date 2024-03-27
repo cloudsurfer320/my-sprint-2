@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c220714f82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<style>
+    .boxContact{
+        margin-right: auto ;
+        margin-left: auto;
+        padding: 2%;
+        height:max-content;
+        width: 50%;
+        /* border: 2px 1px solid black; */
+        background-color: rgb(255, 252, 248);
+    }
+    body{
+        background-color:azure;
+    }
+    .card-header ul{
+        justify-content: end;
+        font-size: large;
+    }
+    .card-header ul li{
+        padding-right:30px;
+    }
+</style>
+<body>
+    <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item" style="margin-right:auto;">
+                <a class="nav-link disabled" aria-disabled="true">Online Store</a>
+              </li>              
+            <li class="nav-item">
+              <a class="nav-link" aria-current="true" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="boxContact">
+
+        <div >
+          <div class="card-header">
+          <h1 style="text-align:center;"> <b>Contact Us</b></h1>
+          <br>
+        </div>
+          <p style="text-align: center; ">You can send queries related to our website below. <br>
+            Check our contact information in the bottom of our page.</p>
+        </div>
+
+        <!-- Contact Page -->
+        
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+              <div class="col-md-6">
+      
+                  <form action="index.html" method="post">
+      
+                      <div class="form-group">
+                          <label for="name">Name<span style="color:red">*</span></label>
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                      </div>
+                      <br>
+                      <div class="form-group">
+                          <label for="phone">Phone Number<span style="color:red">*</span></label>
+                          <input type="tel" class="form-control" id="phone" name="phone" placeholder="+61-XXXXXXXXXX" required>
+                      </div>
+                      <br>
+                      <div class="form-group">
+                          <label for="email">Email<span style="color:red">*</span></label>
+                          <input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="email" required>
+                        </div>
+                        <br>
+                      <div class="form-group">
+                          <label for="subject">Subject<span style="color:red">*</span></label>
+                          <input type="text" class="form-control" id="subject" name="subject" required>
+                      </div>
+                      <br>
+                      <div class="form-group">
+                          <label for="question">Question<span style="color:red">*</span></label>
+                          <textarea class="form-control" id="question" name="question" rows="3" required></textarea>
+                      </div>
+                      <br><br>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      
+                  </form>
+      
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="bg-dark text-light mt-5" style="padding: 2% 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: <a href="mailto:s366192@studnets.cdu.edu.au" class="text-light">s366192@studnets.cdu.edu.au</a></p>
+                    <p>Location:CDU Building Red 1.01</p>
+                    <p>Contact Number: +61 0488-719-494</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>For Returning products:</h5>
+                    <p>Email: <a href="mailto:Return@yestore.com.au">Return@yestore.com.au</a></p>
+                    <h5>For any collab:</h5>
+                    <p>Email: <a href="mailto:collab@yestore.com.au">collab@yestore.com.au</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>For complaints or any reviews:</h5>
+                    <p>Email: <a href="mailto:Review@yestore.com.au">Review@yestore.com.au</a></p>
+                    <h5>Connect With Us</h5>
+                    <i class="fa-brands fa-square-github"></i> <a href="https://www.github.com/"> Github</a> <br>
+                    <i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/"> Linked In</a>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="text-center">&copy; 2024 Online Cloth Store | <a href="index.html" target="_blank" class="text-light">www.yestore.com.au</a></p>
+        </div>
+      </footer>
+
+
+</body>
+</html>
